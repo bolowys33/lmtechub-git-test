@@ -1,0 +1,41 @@
+            GIT Commands
+
+git init - to iniatialize git 
+git status - to check the status of a repository
+git add <file name> - to stage a file for tracking
+git add . - to stage all files in a repo for tracking
+git commit -m "message" - to commit tracked files
+git branch <branch-name> - to create a new branch
+git switch <branch-name> - to switch to a specified branch
+git remote -v - to view the remote repository
+git add remote - to add a new remote repository
+git pull origin branch-name - to pull files/items from a remote repo branch
+git push origin branch-name - to push files/folders/items into a remote repo branch
+git checkout branch-name - to switch to a specified branch
+git checkout -b branch-name - create and swith to a branch
+git diff - to show changes to files
+git diff --staged - shows changes between files staged for tracking
+git rm file-name - to delete files 
+git mv old-file-name new-file-name - to rename a file 
+git clone url - to clone a remote git repo into a local repo
+git branch -m old-name new-name - to rename a branch
+git ignore - creates a gitignore file and specify files or to be ignored by Git
+git log - displays all the commits made from latest to earliest
+git revert SHA - revert a specified commit
+git revert HEAD - reverts the latest commit
+
+                Command Prompts
+
+cd directory path - to change directory
+ls - list files and folders in a directory
+touch file-name.extension - to create a new files
+mkdir - to create a new folder or directory
+pwd - to check the present working directory
+rm  file-name - to delete file in a directory
+rmdir folder-name - deletes a folder
+rm * - deletes all files in a folder
+redir * - deletes all the folders in a directory
+mv old-file-name new-file-name - to rename a file 
+code . opens the present working directory in as code in a coding environment
+&& - to combine two or more commands for execution at once
+echo - add contents into a file
